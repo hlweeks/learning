@@ -1,11 +1,20 @@
 # Introduction to Shell for Data Science (DataCamp)  
 
+
+
 ## Table of Contents
 
-- [Terminology](##Terminology)
-- [Example Code](##Example Code)
+* [Lesson 1: Manipulating Files and Directories](https://github.com/hlweeks/learning/blob/master/Shell/intro_to_shell_for_DS.md#lesson-1-manipulating-files-and-directories)  
+  - [Terminology](https://github.com/hlweeks/learning/blob/master/Shell/intro_to_shell_for_DS.md#terminology)  
+  - [Commands](https://github.com/hlweeks/learning/blob/master/Shell/intro_to_shell_for_DS.md#commands)  
+  - [Example Code](https://github.com/hlweeks/learning/blob/master/Shell/intro_to_shell_for_DS.md#example-code)  
+* [Lesson 2: Manpulating Data](https://github.com/hlweeks/learning/blob/master/Shell/intro_to_shell_for_DS.md#lesson-2-manipulating-data)
+ 
 
-## Terminology  
+
+## Lesson 1: Manipulating Files and Directories
+
+### Terminology  
 - *filesystem*: part of the operating system responsible for managing files and directories  
 - *root* or *root directory*: very top of the filesystem (path: "/")
 - *absolute path*: path that is the same no matter what, starts with "/" from topmost location within the computer  
@@ -14,7 +23,7 @@
 
 
 
-## Commands  
+### Commands  
 
 #### Basics  
 * `pwd`: "print working directory," prints the directory where you are currently located  
@@ -35,7 +44,7 @@
 * `rmdir <empty_dir>`: "remove directory," deletes an entire directory  
   - *Note:* the directory must be empty before it can be deleted
   
-####Special Paths  
+#### Special Paths  
 * `.`: special path that means "the directory you're currently in"  
 * `..`: special path that means "the directory above the one you're currently in"  
 * `~`: special path that means "your home directory"  
@@ -47,7 +56,10 @@
 
 
 
-## Example Code  
+### Example Code  
 - `cd ..`: moves back/up one directory  
 - `cp seasonal/autumn.csv seasonal/winter.csv backup`: Copies the files `seasonal/autumn.csv` and `seasonal/winter.csv` and stores the copies in the directory called `backup`  
 - `mv autumn.csv winter.csv ..`: Moves the files `seasonal/autumn.csv` and `seasonal/winter.csv` into the directory above where you are currently located  
+
+
+## Lesson 2: Manipulating Data
