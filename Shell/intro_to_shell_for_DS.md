@@ -1,8 +1,8 @@
 # Introduction to Shell for Data Science (DataCamp)  
 
-##Table of Contents
+## Table of Contents
 
--[Terminology](## Terminology)
+- [Terminology](## Terminology)
 
 ## Terminology  
 - *filesystem*: part of the operating system responsible for managing files and directories  
