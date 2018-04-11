@@ -3,6 +3,7 @@
 ## Table of Contents
 
 - [Terminology](##Terminology)
+- [Example Code](##Example Code)
 
 ## Terminology  
 - *filesystem*: part of the operating system responsible for managing files and directories  
